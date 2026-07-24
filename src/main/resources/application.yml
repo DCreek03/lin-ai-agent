@@ -1,11 +1,18 @@
 spring:
   application:
     name: lin-ai-agent
+  ai:
+    dashscope:
+      api-key: 111
+      chat:
+        options:
+          model: qwen3.7-max
+          multi-model: false
 server:
   port: 8123
   servlet:
     context-path: /api
-# springdoc-openapi ??????
+# springdoc-openapi
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
