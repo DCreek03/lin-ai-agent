@@ -1,9 +1,10 @@
 spring:
   application:
     name: lin-ai-agent
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
   ai:
     dashscope:
-      api-key: 111
       chat:
         options:
           model: qwen3.7-max

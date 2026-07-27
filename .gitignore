@@ -27,6 +27,9 @@ target/
 *.swp
 *.tmp
 
+# Local secrets
+src/main/resources/application-local.yml
+
 # Build outputs
 build/
 out/
